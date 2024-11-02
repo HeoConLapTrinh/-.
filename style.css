@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a8e6cf;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ffb6b9;
+}
+
+#garden {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  background-color: #ff8b94;
+  border: 3px solid #ffaaa5;
+  margin-top: 10px;
+}
+
+.pixel-plant {
+  width: 20px;
+  height: 20px;
+  background-color: #dcedc1;
+  margin: 1px;
+  transition: background-color 0.3s;
+}
+
+.pixel-plant.grown {
+  background-color: #ffd3b6;
+}
+
+button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+  color: #ffffff;
+  background-color: #ffaaa5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff8b94;
+}
